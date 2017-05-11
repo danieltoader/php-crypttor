@@ -1,0 +1,30 @@
+{
+  "name": "danieltoader/crypttor",
+  "description": "A simple php library to deal with encrypting and decrypting strings using OpenSSL or MCrypt",
+  "version": "1.0.0-rc1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Toader",
+      "email": "developer@danieltoader.com",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": "^5.6"
+  },
+  "require-dev": {
+    "mockery/mockery": "^0.9",
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "CryptTor\\": "./src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "./tests"
+    }
+  }
+}

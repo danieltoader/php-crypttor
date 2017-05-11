@@ -1,0 +1,14 @@
+{
+  "source": {
+    "directories": [
+      "src"
+    ]
+  },
+  "chdir": "tests",
+  "timeout": 10,
+  "logs": {
+    "text": "/tmp/humbug.log.txt",
+    "json": "/tmp/humbug.json"
+  }
+}
+
