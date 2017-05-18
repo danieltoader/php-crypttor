@@ -1,5 +1,5 @@
 {
-  "name": "danieltoader/crypttor",
+  "name": "danieltoader/php-crypttor",
   "description": "A simple php library to deal with encrypting and decrypting strings using OpenSSL or MCrypt",
   "version": "1.0.0-rc1",
   "license": "MIT",
