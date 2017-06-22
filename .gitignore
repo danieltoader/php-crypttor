@@ -45,3 +45,20 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+# =========================
+# IDE Project Folders
+# =========================
+.idea
+.project
+nbproject
+
+# =========================
+# Other files / Folders
+# =========================
+/build
+/vendor
+/phpunit.xml
+/humbug.json
+/tmp

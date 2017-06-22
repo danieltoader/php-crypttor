@@ -23,10 +23,10 @@ class StrategyFactory
     {
         switch ($strategyString) {
             case OpenSsl::STRATEGY_NAME:
-                $cipher = static::buildOpenSsl($key, $algorithm, $mode);
+                $cipher = $this->buildOpenSsl($key, $algorithm, $mode);
                 break;
             case MCrypt::STRATEGY_NAME:
-                $cipher = static::buildMCrypt($key, $algorithm, $mode);
+                $cipher = $this->buildMCrypt($key, $algorithm, $mode);
                 break;
             default:
                 throw new \Exception(sprintf("%s strategy is not valid", $strategyString));
